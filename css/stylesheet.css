@@ -42,7 +42,7 @@ body{
   left:50%;
   transform:translate(-48%,-50%);
   border-radius:50%;
-  border:8px solid rgba(255,205,60,1);
+  border:8px solid #4DA6C1;
 }
 #loader > .loading:before{
   content:"";
@@ -284,17 +284,17 @@ body{
   margin:0px auto 48px auto;
 }
 #hero > .intro_text > h1 > span.highlight{
-  color:rgba(255, 205, 60, 1); /* Font-color for Highlighting important words in Heading */
+  color:#4DA6C1; /* Font-color for Highlighting important words in Heading */
 }
 #hero > .intro_text > p > span.highlight{
-  color:rgba(255, 205, 60, 1); /* Font-color for Highlighting important words in Paragraph */
+  color:#4DA6C1; /* Font-color for Highlighting important words in Paragraph */
 }
 #hero > .intro_text > .more_about_me{
   width:160px;
   height:50px;
   margin:auto;
-  background:rgba(255,205,60,1); /* About me button's background color on Hero section */
-  border:2px solid rgba(255,205,60,1); /* About me button's border color on Hero section */
+  background:#4DA6C1; /* About me button's background color on Hero section */
+  border:2px solid #4DA6C1; /* About me button's border color on Hero section */
   transition:0.3s ease;
 }
 #hero > .intro_text > .more_about_me:hover{
@@ -396,7 +396,7 @@ body{
 	text-transform:lowercase;
 }
 #portfolio > .portfolio_title > p{
-  width:30%;
+  width:65%;
   margin:0px 0px;
   font-family:"Montserrat",sans-serif;
   font-size:16px; /* Portfolio Title Para Font size*/
@@ -859,11 +859,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_1 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -990,11 +990,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_2 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1120,11 +1120,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_3 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1250,11 +1250,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_4 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1380,11 +1380,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_5 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1510,11 +1510,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_6 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1640,11 +1640,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_7 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1770,11 +1770,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_8 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -1900,11 +1900,11 @@ body{
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
   background:transparent;
-  border:2px solid rgba(255,205,60,1);
+  border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_9 > .close > span:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
   color:rgba(1,1,1,1);
 }
 /* Casestudy Images */
@@ -2064,7 +2064,7 @@ body{
   width:160px;
   height:50px;
 	background:transparent;
-  border:2px solid rgba(255,205,60,0.6);  /* Resume Button Border Color*/
+  border:2px solid #006E90;  /* Resume Button Border Color*/
   transition:0.3s ease;
 }
 #about > .about_container > .about_me > .resume > a{
@@ -2085,7 +2085,7 @@ body{
   color:rgba(255,255,255,1); /* Resume Button font-color */
  }
 #about > .about_container > .about_me > .resume:hover{
-  background:rgba(255,205,60,1);
+  background:#4DA6C1;
 }
 #about > .about_container > .about_me > .resume:hover > a > span{
   color:rgba(1,1,1,1);
@@ -2096,8 +2096,8 @@ body{
   width:160px;
   height:50px;
   margin-left:18px;
-  background:rgba(255,205,60,1); /* Contact Me Button Background Color */
-  border:2px solid rgba(255,205,60,0.6);
+  background:#4DA6C1; /* Contact Me Button Background Color */
+  border:2px solid #006E90;
   transition:0.3s ease;
 }
 #about > .about_container > .about_me > .contact_me > a{
@@ -2166,9 +2166,27 @@ body{
 	text-transform:lowercase;
   color:rgba(1,1,1,1); /* font-color */
 }
+
+#client > .client_title{
+    width:90%;
+    margin:0px auto 66px auto;
+    overflow:hidden;
+}
+
+#client > .client_title > h1{
+  margin:0px 0px 12px 0px;
+  width:40%;
+  font-family:"Montserrat",sans-serif;
+  font-size:42px; /* Education and Experience section Heading font size */
+  font-weight:700;
+	line-height:46px;
+	letter-spacing:2px;
+	text-transform:lowercase;
+  color:rgba(1,1,1,1); /* font-color */
+}
 #education > .education_title > p{
   margin:0px 0px;
-  width:31%;
+  width:65%;
   font-family:"Montserrat",sans-serif;
   font-size:16px; /* Education and Experience section Para font size */
   line-height:28px;
@@ -2545,8 +2563,8 @@ body{
 	color:rgba(1,1,1,1); /* font-color */
   text-align:center;
   text-transform:uppercase;
-  border:2px solid rgba(255,205,60,0.6);
-	background:rgba(255,205,60,1);
+  border:2px solid #006E90;
+	background:#4DA6C1;
   transition:0.3s ease;
 }
 #hire > .hire_container > .hire_me_button > a > span:hover{
@@ -2933,7 +2951,7 @@ body{
   display:block;
   font-size:60px; /* Icon font size of 1st box */
   text-align:center;
-  color:rgba(255,205,60,1); /* font-color */
+  color:#4DA6C1; /* font-color */
 }
 #facts > .fact_container > .f1 > h3{
   margin:0px 0px 12px 0px;
@@ -2960,7 +2978,7 @@ body{
   display:block;
   font-size:60px; /* Icon font size of 2nd box */
   text-align:center;
-  color:rgba(255,205,60,1); /* font-color */
+  color:#4DA6C1; /* font-color */
 }
 #facts > .fact_container > .f2 > h3{
   margin:0px 0px 12px 0px;
@@ -2987,7 +3005,7 @@ body{
   display:block;
   font-size:60px; /* Icon font size of 3rd box */
   text-align:center;
-  color:rgba(255,205,60,1); /* font-color */
+  color:#4DA6C1; /* font-color */
 }
 #facts > .fact_container > .f3 > h3{
   margin:0px 0px 12px 0px;
@@ -3014,7 +3032,7 @@ body{
   display:block;
   font-size:60px; /* Icon font size of 4th box */
   text-align:center;
-  color:rgba(255,205,60,1); /* font-color */
+  color:#4DA6C1; /* font-color */
 }
 #facts > .fact_container > .f4 > h3{
   margin:0px 0px 12px 0px;
@@ -3529,7 +3547,7 @@ body{
 #client > .client_container > .c7 > img{
   width:100%;
   min-height:100%;
-  opacity:0.35;
+  opacity:100;
 }
 
 #client > .client_container > .c8{
@@ -3582,7 +3600,7 @@ body{
   color:rgba(235,235,235,1); /* font-color */
 }
 #contact > .contact_title > p > span.highlight{
-  color:rgba(255,205,60,1);
+  color:#4DA6C1;
 }
 #contact > .contact_container{
   width:90%;
@@ -3658,8 +3676,8 @@ body{
   text-align:center;
   text-transform:uppercase;
   color:rgba(1,1,1,1); /* Font-color */
-  background:rgba(255, 205, 60, 1); /* Background-color */
-	border:2px solid rgba(255, 205, 60, 1);
+  background:#4DA6C1; /* Background-color */
+	border:2px solid #4DA6C1;
   cursor:pointer;
   opacity:0.5;
   transition:0.5s ease;
@@ -3777,7 +3795,7 @@ body{
   top:50%;
   left:50%;
   font-size:336px;
-  color:rgba(255,205,60,1);
+  color:#4DA6C1;
   opacity:0.05;
   transform:translate(-50%,-50%);
 }
@@ -3833,11 +3851,11 @@ body{
 }
 #footer > .footer_container > .social > ul > li i{
   font-size:24px; /* Social Icon font-size */
-  color:rgba(255,205,60,0.5); /* Social Icon color */
+  color:#4DA6C1; /* Social Icon color */
   transition:0.3s ease;
 }
 #footer > .footer_container > .social > ul > li i:hover{
-  color:rgba(255,205,60,1);
+  color:#006E90;
 }
 
 /************************************************************************************* Footer ************************************************************************************/
