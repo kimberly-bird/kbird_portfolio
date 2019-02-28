@@ -93,7 +93,7 @@ body{
 }
 #header > .wrapper > .logo{
   float:left;
-  width:9%; /* Logo width */
+  width:20%; /* Logo width */
   height:auto;
   margin-top:10px;
   overflow:hidden; 
@@ -101,6 +101,17 @@ body{
 #header > .wrapper > .logo > a{
   text-decoration:none;
 }
+
+#header > .wrapper > .logo > h1 {
+    margin:10px 0px 12px 0px;
+    font-family:"Montserrat",sans-serif;
+    font-size:20px; /* Portfolio Title Heading Font size */
+    font-weight:500;
+    color:#4DA6C1; /* font-color */
+      letter-spacing:2px;
+      text-transform:lowercase;
+}
+
 #header > .wrapper > .logo > a > img{
   width:100%;
   min-height:100%;
@@ -178,7 +189,8 @@ body{
   text-decoration:none;
 }
 #mobile_menu > .head_wrap > .mobile_header > .logo > a > img{
-  width:100%;
+  margin-left: 10px;
+  width:80%;
   min-height:100%;
 }
 #mobile_menu > .head_wrap > .mobile_header > .menu{ 
