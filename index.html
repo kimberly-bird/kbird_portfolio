@@ -9,6 +9,12 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Kimmy Bird | Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/carousel.css"> 
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CMontserrat:400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-5.2.0/css/all.css">
     <link rel="stylesheet" href="css/stylesheet.css"> <!-- Stylesheet -->
@@ -94,7 +100,7 @@
             <p>A <span class="highlight">software developer</span> based in Nashville, TN.</p>
             <!-- Read More -->
             <div class="more_about_me">
-                <a href="#about"><span>About Me</span></a>
+                <a href="#portfolio"><span>Projects</span></a>
             </div>
         </div>
         <!-- Background as solid color. To change background color edit stylesheet.css -->
@@ -167,32 +173,53 @@
                 <span>close</span>
             </div>
             <div class="case_img1">
-                <img src="images/casestudy/bike/bike_dashboard.png" alt="casestudy">
-            </div>
-            <div class="case_img2">
-                <img src="images/casestudy/bike/all_bikes.png" alt="work">
-            </div>
-            <div class="case_img3">
-                <img src="images/casestudy/bike/bike_labor.png" alt="product Image">
-            </div>
-            <!-- Project Details -->
-            <div class="project">
-                <h1>Bike Dash.</h1>
-                <div class="description">
-                    <p>A web app to help my dad record his bike sales and inventory.</p>
-                    <p>As a hobby, my dad buys bikes from pawn shops in Salt Lake City, Utah and then he
-                        rebuilds/upgrades the bikes to sell online. I asked him how he tracks his inventory and his
-                        sales and his response was, "I start with money in an envelope, and I hope that I end up with
-                        more money in the envelope at the end of the year than what I started with". That's when I
-                        decided to build him this app.</p>
-                </div>
-                <!-- Client Details, skill used, link to visit website -->
-                <div class="details">
-                    <h3>Tech</h3>
-                    <span>Python & Django</span>
-                    <h3>Github</h3>
-                    <a href="https://github.com/kimberly-bird/bike_dash_app" target="_blank"><span> View Code
-                        </span></a>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="images/bike_dash/bd1.png" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="images/bike_dash/bd2.png" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="images/bike_dash/bd3.png" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="images/bike_dash/bd4.png" alt="Fourth slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-8 col-lg-4" id="projs">
+                            <h1 class="proj-text proj-header">bike dash.</h1>
+                            <hr class="proj-hr">
+                            <p class="proj-p">A web app to help my dad record his bike sales, inventory, and to-do list.
+                            </p>
+                            <br>
+                            <h3 class="proj-text">tech used:</h3>
+                            <p class="proj-p">Python & Django</p>
+                            <div class="contact_me">
+                                <a href="https://github.com/kimberly-bird/bike_dash_app" target="_blank"><span><i
+                                            class="fab fa-github"></i>
+                                        view code</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -219,7 +246,8 @@
                 <h1>Grow.</h1>
                 <div class="description">
                     <p>A MVC web app to track overall plant health by optimizing watering and lighting requirements.</p>
-                    <p>Grow is my attempt to build an app that will help me not kill all of my houseplants. My husband got me a
+                    <p>Grow is my attempt to build an app that will help me not kill all of my houseplants. My husband
+                        got me a
                         houseplant monthly subscription and it's been challenging to keep the plants alive and thriving!
                         The goal with this app is to enter each of your plants, along with periodic updates to optimize
                         the watering, lighting, and other needs of each plant.</p>
@@ -257,7 +285,9 @@
                 <div class="description">
                     <p>A React front-end and Django REST API for users to record owned artwork. </p>
                     <p>This app allows users to add owned artwork to track their collection. This was inspired by my
-                        great-grandfather, who was an artist in Chicago in the 1950s. Over the years, I've accumulated many of his pieces, as well as other original art from around the world. I love each piece I own, but I didn't have an organized way to record the details about them.</p>
+                        great-grandfather, who was an artist in Chicago in the 1950s. Over the years, I've accumulated
+                        many of his pieces, as well as other original art from around the world. I love each piece I
+                        own, but I didn't have an organized way to record the details about them.</p>
                 </div>
                 <!-- Client Details, skill used, link to visit website -->
                 <div class="details">
@@ -328,9 +358,11 @@
                 <h1>Backpacker Tracker.</h1>
                 <div class="description">
                     <p>Single page app for users to document highlights of trips abroad.</p>
-                    <p>My husband and I went backpacking through central Europe when we were newlyweds &mdash; but we could never
+                    <p>My husband and I went backpacking through central Europe when we were newlyweds &mdash; but we
+                        could never
                         remember where we went or the timeline of the countries we visited. This app allows users to
-                        record highlights of trips abroad, add trip details, and view trips on map or timeline views.</p>
+                        record highlights of trips abroad, add trip details, and view trips on map or timeline views.
+                    </p>
                 </div>
                 <!-- Client Details, skill used, link to visit website -->
                 <div class="details">
@@ -527,7 +559,9 @@
                 <h1 style="color: #4DA6C1;">About Me.</h1>
                 <h3>NSS grad Mar 2018 <br> NSS Jr Instructor Apr 2018 - Jun 2019 <br> Currently working with Python, C#,
                     SQL</h3>
-                <p>I never considered myself a creative person because I thought that meant I could paint, sculpt, or make really pretty things out of dried macaroni. But then I learned software development, and that at the end of the day, I get to solve
+                <p>I never considered myself a creative person because I thought that meant I could paint, sculpt, or
+                    make really pretty things out of dried macaroni. But then I learned software development, and that
+                    at the end of the day, I get to solve
                     problems and wrangle data in a creative way.</p>
                 <!-- Resume Button -->
                 <div class="resume">
@@ -594,7 +628,8 @@
                     <h3>Bridge Education <br>Group</h3>
                     <span>Division Manager | Product Owner</span>
                     <span>April 2015 - September 2017</span>
-                    <p>I led daily operations of the TEFL (Teaching English as a Foreign Language) division, ranging from sales/marketing
+                    <p>I led daily operations of the TEFL (Teaching English as a Foreign Language) division, ranging
+                        from sales/marketing
                         reporting, accreditation prep, and launching new e-learning products to help teachers learn how
                         to teach English abroad.</p>
                 </div>
@@ -752,11 +787,17 @@
     <script src="js/scroll_menu.js"></script>
     <script src="js/hero_text.js"></script>
     <script src="js/portfolio.js"></script>
-    <script src="js/counter.js"></script>
     <script src="js/form.js"></script>
     <script src="js/scroll_top.js"></script>
 
     <!-- JavaScript and jQuery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 

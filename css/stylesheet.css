@@ -914,71 +914,7 @@ body{
   width:100%;
   min-height:100%;
 }
-/*Casestudy project description*/
-#casestudy > .case_container_1 > .project{
-  width:100%;
-  height:auto;
-  font-size:0px;
-  margin-bottom:60px;
-}
-#casestudy > .case_container_1 > .project > h1{
-  margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
-  font-size:36px; /* Heading font-size of Project Description section */
-	font-weight:700;
-	letter-spacing:2px;
-  text-transform: lowercase;
-  color:rgba(255,255,255,1); /* font-color */
-}
-#casestudy > .case_container_1 > .project > .description{
-  display:inline-block;
-  vertical-align:top;
-  width:65%;
-  height:auto;
-}
-#casestudy > .case_container_1 > .project > .description > p{
-  margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
-  font-size:18px; /* Paragraphy font-size of Project Description section */
-  line-height:32px;
-  color:rgba(154,154,154,1);
-}
-#casestudy > .case_container_1 > .project > .details{
-  display:inline-block;
-  vertical-align:top;
-  width:30%;
-  height:auto;
-  margin-left:5%;
-}
-#casestudy > .case_container_1 > .project > .details > h3{
-  margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
-  font-size:18px;
-  color:rgba(255,255,255,1);
-}
-#casestudy > .case_container_1 > .project > .details > span{
-  margin-bottom:18px;
-  display:block;
-  font-family:"Montserrat",sans-serif;
-  font-size:18px;
-  line-height:30px;
-  color:rgba(154,154,154,1);
-}
-#casestudy > .case_container_1 > .project > .details > a{
-  text-decoration:none;
-}
-#casestudy > .case_container_1 > .project > .details > a > span{
-  margin-bottom:18px;
-  display:block;
-  font-family:"Montserrat",sans-serif;
-  font-size:18px;
-  color:rgba(154,154,154,1);
-	transition:0.3s ease;
-	word-break:break-all;
-}
-#casestudy > .case_container_1 > .project > .details > a:hover > span{
-  color:rgba(234,234,234,1);
-}
+
 /* End of Casestudy for case_conatiner_1 */
 
 
