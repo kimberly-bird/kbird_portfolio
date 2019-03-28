@@ -320,7 +320,7 @@ body{
 }
 #hero > .intro_text > .more_about_me > a > span{
   display:block;
-  padding:17px 0px;
+  padding:14px 0px;
   font-family:"Montserrat",sans-serif;
   font-size:14px; /* Font size of about button */
 	font-weight:500;
@@ -925,10 +925,9 @@ body{
 
 /* Casestudy for case_conatiner_3 */
 #casestudy > .case_container_3{
-  width:80%;
+  width:90%;
   height:auto;
-  font-size:0px;
-  margin:120px auto 120px auto;
+  margin:50px auto 50px auto;
 	display:none;
 }
 #casestudy > .case_container_3 > .close{
@@ -940,20 +939,20 @@ body{
   margin-bottom:60px;
   font-family:"Montserrat",sans-serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
-  color:rgba(255,255,255,1); /* font-color */
+  color:black; /* font-color */
   cursor:pointer;
-  background:transparent;
+  background:white;
   border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_3 > .close > span:hover{
   background:#4DA6C1;
-  color:rgba(1,1,1,1);
+  color:black;
 }
 /* Casestudy Images */
 #casestudy > .case_container_3 > .case_img1{
   width:100%;
-  height:420px;
+  height:auto !important;
   margin-bottom:30px;
   overflow:hidden;
 }
@@ -1055,10 +1054,9 @@ body{
 
 /* Casestudy for case_conatiner_4 */
 #casestudy > .case_container_4{
-  width:80%;
+  width:90%;
   height:auto;
-  font-size:0px;
-  margin:120px auto 120px auto;
+  margin:50px auto 50px auto;
 	display:none;
 }
 #casestudy > .case_container_4 > .close{
@@ -1070,20 +1068,20 @@ body{
   margin-bottom:60px;
   font-family:"Montserrat",sans-serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
-  color:rgba(255,255,255,1); /* font-color */
+  color:black; /* font-color */
   cursor:pointer;
-  background:transparent;
+  background:white;
   border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_4 > .close > span:hover{
   background:#4DA6C1;
-  color:rgba(1,1,1,1);
+  color:black;
 }
 /* Casestudy Images */
 #casestudy > .case_container_4 > .case_img1{
   width:100%;
-  height:420px;
+  height:auto !important;
   margin-bottom:30px;
   overflow:hidden;
 }
@@ -1185,10 +1183,9 @@ body{
 
 /* Casestudy for case_conatiner_5 */
 #casestudy > .case_container_5{
-  width:80%;
+  width:90%;
   height:auto;
-  font-size:0px;
-  margin:120px auto 120px auto;
+  margin:50px auto 50px auto;
 	display:none;
 }
 #casestudy > .case_container_5 > .close{
@@ -1200,20 +1197,20 @@ body{
   margin-bottom:60px;
   font-family:"Montserrat",sans-serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
-  color:rgba(255,255,255,1); /* font-color */
+  color:black; /* font-color */
   cursor:pointer;
-  background:transparent;
+  background:white;
   border:2px solid #4DA6C1;
   transition:0.3s ease;
 }
 #casestudy > .case_container_5 > .close > span:hover{
   background:#4DA6C1;
-  color:rgba(1,1,1,1);
+  color: black;
 }
 /* Casestudy Images */
 #casestudy > .case_container_5 > .case_img1{
   width:100%;
-  height:420px;
+  height:auto !important;
   margin-bottom:30px;
   overflow:hidden;
 }
@@ -1330,7 +1327,7 @@ body{
   margin-bottom:60px;
   font-family:"Montserrat",sans-serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
-  color:rgba(255,255,255,1); /* font-color */
+  color:black; /* font-color */
   cursor:pointer;
   background:transparent;
   border:2px solid #4DA6C1;
@@ -1898,7 +1895,7 @@ body{
 }
 #about > .about_container > .about_me > .resume > a > span{
   display:block;
-  padding:17px 0px;
+  padding:14px 0px;
   font-family:"Montserrat",sans-serif;
   font-size:14px; /* Resume Button font-size */
 	font-weight:500;
@@ -1931,7 +1928,7 @@ body{
 }
 #about > .about_container > .about_me > .contact_me > a > span{
   display:block;
-  padding:17px 0px;
+  padding:14px 0px;
   font-family:"Montserrat",sans-serif;
   font-size:14px; /* Contact Me Button font size*/
 	font-weight:500;
@@ -2027,7 +2024,7 @@ body{
   vertical-align:top;
   position:relative;
   overflow:hidden;
-  width:calc(32.5% - 60px); /* Width of 1st Education Box */
+  width:calc(37% - 60px); /* Width of 1st Education Box */
   padding:36px 30px;
   margin-bottom:18px;
   background:rgba(242,242,242,1); /* Background-color */
@@ -2078,7 +2075,7 @@ body{
   vertical-align:top;
   position:relative;
   overflow:hidden;
-  width:calc(32.5% - 60px); /* Width of 2nd Education Box */
+  width:calc(37% - 60px); /* Width of 2nd Education Box */
   padding:36px 30px;
   margin-bottom:18px;
   margin-left:1.25%;
@@ -2130,7 +2127,7 @@ body{
   vertical-align:top;
   position:relative;
   overflow:hidden;
-  width:calc(32.5% - 60px); /* Width of 3rd Education Box */
+  width:calc(37% - 60px); /* Width of 3rd Education Box */
   padding:36px 30px;
   margin-bottom:18px;
   margin-left:1.25%;
@@ -2183,7 +2180,7 @@ body{
   vertical-align:top;
   position:relative;
   overflow:hidden;
-  width:calc(32.5% - 60px); /* Width of 4th Educaiton Box */
+  width:calc(37% - 60px); /* Width of 4th Educaiton Box */
   padding:36px 30px;
   background:rgba(242,242,242,1); /* Background-color */
 	transition:0.3s ease;
@@ -2233,7 +2230,7 @@ body{
   vertical-align:top;
   position:relative;
   overflow:hidden;
-  width:calc(32.5% - 60px); /* Width of 5th Education box */
+  width:calc(37% - 60px); /* Width of 5th Education box */
   margin-left:1.25%;
   padding:36px 30px;
   background:rgba(242,242,242,1); /* Background-color */
@@ -2285,7 +2282,7 @@ body{
   vertical-align:top;
   position:relative;
   overflow:hidden;
-  width:calc(32.5% - 60px); /* Width of 6th Education Box */
+  width:calc(37% - 60px); /* Width of 6th Education Box */
   margin-left:1.25%;
   padding:36px 30px; 
   background:rgba(242,242,242,1); /*Background-color */
@@ -3277,7 +3274,7 @@ body{
   background:rgba(242,242,242,1);
 }
 #client > .client_container{
-  width:90%;
+  width:100%;
   margin:auto;
   font-size:0px;
   overflow:hidden;
@@ -3285,7 +3282,7 @@ body{
 #client > .client_container > .c1{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 1st Client Box */
+  width:calc(30% - 120px); /* Width of 1st Client Box */
   padding:0px 60px;
   margin-bottom:30px;
   overflow:hidden;
@@ -3298,7 +3295,7 @@ body{
 #client > .client_container > .c2{
  display:inline-block;
  vertical-align:middle;
- width:calc(25% - 120px); /* Width of 2nd Client Box */
+ width:calc(30% - 120px); /* Width of 2nd Client Box */
  padding:0px 60px;
  margin-bottom:30px; 
  overflow:hidden;
@@ -3311,7 +3308,7 @@ body{
 #client > .client_container > .c3{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 3rd Client Box */
+  width:calc(30% - 120px); /* Width of 3rd Client Box */
   padding:0px 60px;
   margin-bottom:30px;
   overflow:hidden;
@@ -3324,7 +3321,7 @@ body{
 #client > .client_container > .c4{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 4th Client Box */
+  width:calc(30% - 120px); /* Width of 4th Client Box */
   padding:0px 60px;
   margin-bottom:30px;
   overflow:hidden;
@@ -3337,7 +3334,7 @@ body{
 #client > .client_container > .c5{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 5th Client Box */
+  width:calc(30% - 120px); /* Width of 5th Client Box */
   padding:0px 60px;
   overflow:hidden;
 }
@@ -3350,7 +3347,7 @@ body{
 #client > .client_container > .c6{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 6th Client Box */
+  width:calc(30% - 120px); /* Width of 6th Client Box */
   padding:0px 60px;
   overflow:hidden;
 }
@@ -3363,7 +3360,7 @@ body{
 #client > .client_container > .c7{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 7th Client Box */
+  width:calc(30% - 120px); /* Width of 7th Client Box */
   padding:0px 60px;
   overflow:hidden;
 }
@@ -3376,7 +3373,7 @@ body{
 #client > .client_container > .c8{
   display:inline-block;
   vertical-align:middle;
-  width:calc(25% - 120px); /* Width of 8th Client Box */
+  width:calc(30% - 120px); /* Width of 8th Client Box */
   padding:0px 60px;
   overflow:hidden;
 }
