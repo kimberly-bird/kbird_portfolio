@@ -3790,3 +3790,12 @@ body{
 #projs {
     margin-top: 30px;
 }
+
+.devicon {
+    font-size: 9rem;
+}
+
+.sql-icon {
+    width: 10rem;
+    height: auto;
+}
