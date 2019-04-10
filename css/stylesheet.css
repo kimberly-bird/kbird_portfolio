@@ -3632,7 +3632,7 @@ body{
   width:100%;
   overflow:hidden;
   padding:54px 0px 48px 0px;
-  background:rgba(10,10,10,1);
+  background:black;
 }
 #footer > .footer_container{
   width:90%;
@@ -3799,3 +3799,64 @@ body{
     width: 10rem;
     height: auto;
 }
+
+.experience-header {
+    background-color: #006E90;
+    color: white;
+    font-size: 1.50em;
+}
+
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+  
+  .card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+  }
+  
+  /* First border-left-width setting is a fallback */
+  .card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+  }
+  
+  .card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    /* position: absolute; */
+    /* top: 100px; */
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-custom-text {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+
+  .company-logos {
+      background-color: white;
+      padding: 1%;
+  }
