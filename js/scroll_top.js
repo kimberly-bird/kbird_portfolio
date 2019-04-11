@@ -1,9 +1,9 @@
 
 
 
-// Jane - A Personal Portfolio Template.
+// Kimmy Bird | Software Developer.
 // Below codes fades-in the button which is placed at bottom right corner and when clicked scrolls to top.
-// All codes rights reserved by Jane - A Personal Portfolio Template.
+// All codes rights reserved by Kimmy Bird | Software Developer.
 
 
 $(document).ready(function(){

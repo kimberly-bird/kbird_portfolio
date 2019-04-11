@@ -1,10 +1,10 @@
 
 
 
-// Jane - A Personal Portfolio Template.
+// Kimmy Bird | Software Developer.
 // Below codes check the user entered values for Form Validation.
 // If all values are valid then form proceed using AJAX. 
-// All codes rights reserved by Jane - A Personal Portfolio Template.
+// All codes rights reserved by Kimmy Bird | Software Developer.
 
 
 

@@ -1,7 +1,7 @@
 
 
-// Jane - A Personal Portfolio Template.
-// All codes rights reserved by Jane - A Personal Portfolio Template. 
+// Kimmy Bird | Software Developer.
+// All codes rights reserved by Kimmy Bird | Software Developer. 
 
 
 <?

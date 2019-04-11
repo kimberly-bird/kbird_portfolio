@@ -1,9 +1,9 @@
 
 
 
-// Jane - A Personal Portfolio Template.
+// Kimmy Bird | Software Developer.
 // Below codes are for automatic counter increment.  
-// All codes rights reserved by Jane - A Personal Portfolio Template.
+// All codes rights reserved by Kimmy Bird | Software Developer.
 
 
 "use strict";

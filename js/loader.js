@@ -1,9 +1,9 @@
 
 
 
-// Jane - A Personal Portfolio Template.
+// Kimmy Bird | Software Developer.
 // Below code is used for changing the CSS property of Loader section.
-// All codes rights reserved by Jane - A Personal Portfolio Template.
+// All codes rights reserved by Kimmy Bird | Software Developer.
 
 
 $(window).on('load',function(){

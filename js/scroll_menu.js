@@ -1,9 +1,9 @@
 
 
 
-// Jane - A Personal Portfolio Template.
+// Kimmy Bird | Software Developer.
 // Below codes adds and remove the class from a tag on scrolling to certain section. 
-// All codes rights reserved by Jane - A Personal Portfolio Template.
+// All codes rights reserved by Kimmy Bird | Software Developer.
 
 
 $(document).ready(function(){

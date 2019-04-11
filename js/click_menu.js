@@ -1,10 +1,10 @@
 
 
 
-// Jane - A Personal Portfolio Template.
+// Kimmy Bird | Software Developer.
 // Below code includes two section of code 1st fades-in and hides header section. 
 // 2nd when user click on links it scroll automatically to assigned section.
-// All codes rights reserved by Jane - A Personal Portfolio Template.
+// All codes rights reserved by Kimmy Bird | Software Developer.
 
 
 $(document).ready(function(){
