@@ -277,6 +277,127 @@
 
 
 
+/* IPHONE 6,7,8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  #portfolio > .portfolio_title > p{
+    width:55%;
+  }
+  #portfolio > .portfolio_container > .p1{
+    width:100%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p1:hover > .p1_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p2{
+    width:100%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p2:hover > .p2_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p3{
+    width:100%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p3:hover > .p3_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p4{
+    width:100%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p4:hover > .p4_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p5{
+    width:100%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p5:hover > .p5_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p6{
+    width:100%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p6:hover > .p6_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p7{
+    width:32%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p7:hover > .p7_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p8{
+    width:32%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p8:hover > .p8_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+  #portfolio > .portfolio_container > .p9{
+    width:32%;
+    height:350px;
+  }
+  #portfolio > .portfolio_container > .p9:hover > .p9_overlay > h3{
+    opacity:1;
+    padding:150px 0;
+  }
+
+    #mobile_menu{
+      display:none;
+    }
+    #header > .wrapper > .logo{
+      width:9%;
+      margin-top:6px;
+    }
+    #hero > .intro_text > h1{
+      font-size:102px;
+      margin:0px 0px 18px 0px;
+    }
+    #hero > .intro_text > p{
+      width:80%;
+      font-size:36px; 
+      line-height:54px;
+    }
+    #hero > .intro_text > .more_about_me{
+      width:170px;
+      height:55px;
+    }
+    #hero > .intro_text > .more_about_me > a > span{
+      font-size:18px; 
+      padding: px 0px 0px 0px;
+    }
+
+    .about_me {
+      width: 50%;
+      height: auto;
+    }
+
+    .my_image {
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+
+
+
+
 @media screen and (min-width : 1441px) and (max-width : 1680px){
 #mobile_menu{
   display:none;
@@ -300,10 +421,10 @@
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:18px; 
-  padding:17px 0px 0px 0px;
+  padding: px 0px 0px 0px;
 }
 #portfolio > .portfolio_title > p{
-  width:25%;
+  width:55%;
 }
 #portfolio > .portfolio_container > .p1{
   width:32%;
