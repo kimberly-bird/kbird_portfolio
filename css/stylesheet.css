@@ -3857,3 +3857,11 @@ body{
 ul {
   font-family: 'Lora', serif;
 }
+
+.nss-link {
+  color: #006E90;
+}
+
+.nss-link:hover {
+  color: rgb(1, 146, 190);
+}
