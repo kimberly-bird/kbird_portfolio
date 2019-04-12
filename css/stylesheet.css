@@ -104,7 +104,7 @@ body{
 
 #header > .wrapper > .logo > h1 {
     margin:10px 0px 12px 0px;
-    font-family:"Montserrat",sans-serif;
+    font-family:font-family: 'Lora', serif;
     font-size:20px; /* Portfolio Title Heading Font size */
     font-weight:500;
     color:#4DA6C1; /* font-color */
@@ -278,7 +278,7 @@ body{
   transition:0.3s ease;
 }
 #hero > .intro_text > h1{
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:90px; /* Heading font-size on Hero section */
 	font-weight:500;
 	letter-spacing:-2px;
@@ -288,7 +288,7 @@ body{
 }
 #hero > .intro_text > p{
   width:80%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:28px; /* Paragraph font-size on Hero section */
   line-height:42px;
   text-align:center;
@@ -321,7 +321,7 @@ body{
 #hero > .intro_text > .more_about_me > a > span{
   display:block;
   padding:14px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:14px; /* Font size of about button */
 	font-weight:500;
   text-align:center;
@@ -400,7 +400,7 @@ body{
 }
 #portfolio > .portfolio_title > h1{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:42px; /* Portfolio Title Heading Font size */
   font-weight:700;
   color:rgba(1,1,1,1); /* font-color */
@@ -410,7 +410,7 @@ body{
 #portfolio > .portfolio_title > p{
   width:65%;
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Portfolio Title Para Font size*/
 	font-weight:500;
   line-height:28px;
@@ -444,7 +444,7 @@ body{
 }
 #portfolio > .portfolio_container > .p1 > .p1_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
   text-align:center;
@@ -486,7 +486,7 @@ body{
 }
 #portfolio > .portfolio_container > .p2 > .p2_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
   text-align:center;
@@ -529,7 +529,7 @@ body{
 }
 #portfolio > .portfolio_container > .p3 > .p3_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
 	text-align:center;
@@ -571,7 +571,7 @@ body{
 }
 #portfolio > .portfolio_container > .p4 > .p4_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
 	text-align:center;
@@ -614,7 +614,7 @@ body{
 }
 #portfolio > .portfolio_container > .p5 > .p5_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
 	text-align:center;
@@ -657,7 +657,7 @@ body{
 }
 #portfolio > .portfolio_container > .p6 > .p6_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
 	text-align:center;
@@ -698,7 +698,7 @@ body{
 }
 #portfolio > .portfolio_container > .p7 > .p7_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
   text-align:center;
@@ -739,7 +739,7 @@ body{
 }
 #portfolio > .portfolio_container > .p8 > .p8_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
 	text-align:center;
@@ -781,7 +781,7 @@ body{
 }
 #portfolio > .portfolio_container > .p9 > .p9_overlay > h3{
   opacity:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Font size of portfolio overlay */
 	font-weight:500;
 	text-align:center;
@@ -818,7 +818,7 @@ body{
 #portfolio > .portfolio_load_more > a > span{
   display:block;
   padding:17px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:14px; /* portfolio load more button font size */
   text-align:center;
   text-transform:uppercase;
@@ -865,7 +865,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:black; /* font-color */
   cursor:pointer;
@@ -901,7 +901,7 @@ body{
     float:right;
     padding:12px 30px;
     margin-bottom:60px;
-    font-family:"Montserrat",sans-serif; 
+    font-family:font-family: 'Lora', serif; 
     font-size:16px; /* Font-size of close button on casestudy section */
     color:black; /* font-color */
     cursor:pointer;
@@ -937,7 +937,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:black; /* font-color */
   cursor:pointer;
@@ -994,7 +994,7 @@ body{
 }
 #casestudy > .case_container_3 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1009,7 +1009,7 @@ body{
 }
 #casestudy > .case_container_3 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1023,14 +1023,14 @@ body{
 }
 #casestudy > .case_container_3 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_3 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1041,7 +1041,7 @@ body{
 #casestudy > .case_container_3 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1066,7 +1066,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:black; /* font-color */
   cursor:pointer;
@@ -1123,7 +1123,7 @@ body{
 }
 #casestudy > .case_container_4 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1138,7 +1138,7 @@ body{
 }
 #casestudy > .case_container_4 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1152,14 +1152,14 @@ body{
 }
 #casestudy > .case_container_4 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_4 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1170,7 +1170,7 @@ body{
 #casestudy > .case_container_4 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1195,7 +1195,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:black; /* font-color */
   cursor:pointer;
@@ -1252,7 +1252,7 @@ body{
 }
 #casestudy > .case_container_5 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1267,7 +1267,7 @@ body{
 }
 #casestudy > .case_container_5 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1281,14 +1281,14 @@ body{
 }
 #casestudy > .case_container_5 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_5 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1299,7 +1299,7 @@ body{
 #casestudy > .case_container_5 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1325,7 +1325,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:black; /* font-color */
   cursor:pointer;
@@ -1382,7 +1382,7 @@ body{
 }
 #casestudy > .case_container_6 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1397,7 +1397,7 @@ body{
 }
 #casestudy > .case_container_6 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1411,14 +1411,14 @@ body{
 }
 #casestudy > .case_container_6 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_6 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1429,7 +1429,7 @@ body{
 #casestudy > .case_container_6 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1455,7 +1455,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
@@ -1512,7 +1512,7 @@ body{
 }
 #casestudy > .case_container_7 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1527,7 +1527,7 @@ body{
 }
 #casestudy > .case_container_7 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1541,14 +1541,14 @@ body{
 }
 #casestudy > .case_container_7 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_7 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1559,7 +1559,7 @@ body{
 #casestudy > .case_container_7 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1585,7 +1585,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
@@ -1642,7 +1642,7 @@ body{
 }
 #casestudy > .case_container_8 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1657,7 +1657,7 @@ body{
 }
 #casestudy > .case_container_8 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1671,14 +1671,14 @@ body{
 }
 #casestudy > .case_container_8 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_8 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1689,7 +1689,7 @@ body{
 #casestudy > .case_container_8 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1715,7 +1715,7 @@ body{
   float:right;
   padding:12px 30px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:16px; /* Font-size of close button on casestudy section */
   color:rgba(255,255,255,1); /* font-color */
   cursor:pointer;
@@ -1772,7 +1772,7 @@ body{
 }
 #casestudy > .case_container_9 > .project > h1{
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* Heading font-size of Project Description section */
 	font-weight:700;
 	letter-spacing:2px;
@@ -1787,7 +1787,7 @@ body{
 }
 #casestudy > .case_container_9 > .project > .description > p{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Paragraphy font-size of Project Description section */
   line-height:32px;
   color:rgba(154,154,154,1);
@@ -1801,14 +1801,14 @@ body{
 }
 #casestudy > .case_container_9 > .project > .details > h3{
   margin:0px 0px 6px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(255,255,255,1);
 }
 #casestudy > .case_container_9 > .project > .details > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   line-height:30px;
   color:rgba(154,154,154,1);
@@ -1819,7 +1819,7 @@ body{
 #casestudy > .case_container_9 > .project > .details > a > span{
   margin-bottom:18px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px;
   color:rgba(154,154,154,1);
 	transition:0.3s ease;
@@ -1838,6 +1838,7 @@ body{
 /*********************************************************************************** About ***************************************************************************************/
 
 #about{
+  padding: 50px;
   position:relative;
   z-index:5;
   width:100%;
@@ -1853,32 +1854,32 @@ body{
   width:80%;
   margin:auto;
 }
-#about > .about_container > .about_me > h1{
+.about_title {
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:42px; /* About Me section Heading font size*/
   font-weight:700;
 	letter-spacing:2px;
 	text-transform:lowercase;
   color:rgba(255,255,255,1); /* font-color */
 }
-#about > .about_container > .about_me > h3{
+.about_text {
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* About Me section Sub-Heading font size*/
   font-weight:500;
 	line-height:36px;
   color:rgba(154,154,154,1); /* font-color */
 }
-#about > .about_container > .about_me > p{
+.about_paragraph{
   margin:0px 0px 36px 0px;
-  font-family:"Montserrat",sans-serif;
-  font-size:16px; /* About Me section Para font size */
+  font-family:font-family: 'Lora', serif;
+  font-size:18px; /* About Me section Para font size */
   font-weight:500;
   line-height:28px;
   color:rgba(154,154,154,1); /* font-color*/
 }
-#about > .about_container > .about_me > .resume{
+.about_resume{
   display:inline-block;
   vertical-align:top;
   width:160px;
@@ -1887,16 +1888,16 @@ body{
   border:2px solid #006E90;  /* Resume Button Border Color*/
   transition:0.3s ease;
 }
-#about > .about_container > .about_me > .resume > a{
+.about_resume > a{
   display:block;
   width:100%;
   height:100%;
   text-decoration:none;
 }
-#about > .about_container > .about_me > .resume > a > span{
+.about_resume > a > span{
   display:block;
   padding:14px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:14px; /* Resume Button font-size */
 	font-weight:500;
 	letter-spacing:2px;
@@ -1904,13 +1905,13 @@ body{
   text-transform:uppercase;
   color:rgba(255,255,255,1); /* Resume Button font-color */
  }
-#about > .about_container > .about_me > .resume:hover{
+.about_resume:hover{
   background:#4DA6C1;
 }
-#about > .about_container > .about_me > .resume:hover > a > span{
+.about_resume:hover > a > span{
   color:rgba(1,1,1,1);
 }
-#about > .about_container > .about_me > .contact_me{
+.about_contact_me{
   display:inline-block;
   vertical-align:top;
   width:160px;
@@ -1920,16 +1921,16 @@ body{
   border:2px solid #006E90;
   transition:0.3s ease;
 }
-#about > .about_container > .about_me > .contact_me > a{
+.about_contact_me > a{
   display:block;
   width:100%;
   height:100%;
   text-decoration:none;
 }
-#about > .about_container > .about_me > .contact_me > a > span{
+.about_contact_me > a > span{
   display:block;
   padding:14px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:14px; /* Contact Me Button font size*/
 	font-weight:500;
 	letter-spacing:2px;
@@ -1937,10 +1938,10 @@ body{
   text-transform:uppercase;
   color:rgba(1,1,1,1); /* Contact Me Button font-color */
 }
-#about > .about_container > .about_me > .contact_me:hover{
+.about_contact_me:hover{
   background:transparent;
 }
-#about > .about_container > .about_me > .contact_me:hover > a > span{
+.about_contact_me:hover > a > span{
   color:rgba(255,255,255,1);
 }
 #about > .my_image{
@@ -1950,12 +1951,15 @@ body{
   top:0;
   right:0;
   background:rgba(154,154,154,1);
-	overflow:hidden;
+  overflow:hidden;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 #about > .my_image > img{
   width:100%;
   min-height:100%;
 }
+
 /*********************************************************************************** About ***************************************************************************************/
 
 
@@ -1978,7 +1982,7 @@ body{
 #education > .education_title > h1{
   margin:0px 0px 12px 0px;
   width:40%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:42px; /* Education and Experience section Heading font size */
   font-weight:700;
 	line-height:46px;
@@ -1996,7 +2000,7 @@ body{
 #client > .client_title > h1{
   margin:0px 0px 12px 0px;
   width:40%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:42px; /* Education and Experience section Heading font size */
   font-weight:700;
 	line-height:46px;
@@ -2007,7 +2011,7 @@ body{
 #education > .education_title > p{
   margin:0px 0px;
   width:65%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Education and Experience section Para font size */
   line-height:28px;
 	font-weight:500;
@@ -2038,7 +2042,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2050,7 +2054,7 @@ body{
 }
 #education > .education_container > .e1 > .e1_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading Font size of 1st box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
@@ -2058,14 +2062,14 @@ body{
 #education > .education_container > .e1 > .e1_details > span{
   margin:0px 0px 18px 0px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font-size */
   color:rgba(1,1,1,1); /* font-color */
 	font-weight:500;
 }
 #education > .education_container > .e1 > .e1_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2090,7 +2094,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
 	color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2102,7 +2106,7 @@ body{
 }
 #education > .education_container > .e2 > .e2_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 2nd education box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
@@ -2110,14 +2114,14 @@ body{
 #education > .education_container > .e2 > .e2_details > span{
   margin:0px 0px 18px 0px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   color:rgba(1,1,1,1); /* font-color */
 	font-weight:500;
 }
 #education > .education_container > .e2 > .e2_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2142,7 +2146,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font-size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2154,7 +2158,7 @@ body{
 }
 #education > .education_container > .e3 > .e3_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 3rd Education Box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
@@ -2162,14 +2166,14 @@ body{
 #education > .education_container > .e3 > .e3_details > span{
   margin:0px 0px 18px 0px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   color:rgba(1,1,1,1); /* font-color */
 	font-weight:500;
 }
 #education > .education_container > .e3 > .e3_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   line-height:30px;
   color:rgba(21,21,21,1); /* Font-color */
@@ -2193,7 +2197,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2205,7 +2209,7 @@ body{
 }
 #education > .education_container > .e4 > .e4_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 4th Education Box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
@@ -2213,14 +2217,14 @@ body{
 #education > .education_container > .e4 > .e4_details > span{
   margin:0px 0px 18px 0px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   color:rgba(1,1,1,1); /* font-color */
 	font-weight:500;
 }
 #education > .education_container > .e4 > .e4_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2244,7 +2248,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2257,7 +2261,7 @@ body{
 }
 #education > .education_container > .e5 > .e5_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 5th Education Box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
@@ -2265,14 +2269,14 @@ body{
 #education > .education_container > .e5 > .e5_details > span{
   margin:0px 0px 18px 0px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   color:rgba(1,1,1,1); /* font-color */
 	font-weight:500;
 }
 #education > .education_container > .e5 > .e5_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2296,7 +2300,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2308,7 +2312,7 @@ body{
 }
 #education > .education_container > .e6 > .e6_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size 6th Education Box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
@@ -2316,14 +2320,14 @@ body{
 #education > .education_container > .e6 > .e6_details > span{
   margin:0px 0px 18px 0px;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   color:rgba(1,1,1,1); /* font-color */
 	font-weight:500;
 }
 #education > .education_container > .e6 > .e6_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2358,7 +2362,7 @@ body{
 }
 #hire > .hire_container > .hire_me_content > h1{
   margin:0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:30px; /* Font size of Hire Me section */
   font-weight:700;
   line-height:48px;
@@ -2378,7 +2382,7 @@ body{
   display:inline-block;
   width:250px; /* Hire Me section Button Width */
   padding:24px 0px 24px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Hire Me Section font size */
 	color:rgba(1,1,1,1); /* font-color */
   text-align:center;
@@ -2421,7 +2425,7 @@ body{
 }
 #service > .service_title > h1{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:42px; /* Heading font size for service title section*/
   font-weight:700;
 	letter-spacing:2px;
@@ -2431,7 +2435,7 @@ body{
 #service > .service_title > p{
   margin:0px 0px;
   width:30%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size for service title section */
 	font-weight:500;
   line-height:28px;
@@ -2462,7 +2466,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2480,14 +2484,14 @@ body{
 }
 #service > .service_container > .s1 > .s1_details > h3{
   margin:0px 0px 10px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 1st box */
   color:rgba(1,1,1,1); /* font-color */
   font-weight:600;
 }
 #service > .service_container > .s1 > .s1_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size of 1st box */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2512,7 +2516,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2530,14 +2534,14 @@ body{
 }
 #service > .service_container > .s2 > .s2_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 2nd box */
   font-weight:600;
   color:rgba(1,1,1,1); /* font-color */
 }
 #service > .service_container > .s2 > .s2_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size 2nd box */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2562,7 +2566,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2580,14 +2584,14 @@ body{
 }
 #service > .service_container > .s3 > .s3_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 3rd box */
   font-weight:600;
   color:rgba(1,1,1,1); /* font-color */
 }
 #service > .service_container > .s3 > .s3_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size of 3rd box*/
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2611,7 +2615,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2629,14 +2633,14 @@ body{
 }
 #service > .service_container > .s4 > .s4_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 4th box */
   font-weight:600;
   color:rgba(1,1,1,1); /* font-color */
 }
 #service > .service_container > .s4 > .s4_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size of 4th box */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2660,7 +2664,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2678,14 +2682,14 @@ body{
 }
 #service > .service_container > .s5 > .s5_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font sizr of 5th box */
   font-weight:600;
   color:rgba(1,1,1,1); /* font-color */
 }
 #service > .service_container > .s5 > .s5_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size of 5th box */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2709,7 +2713,7 @@ body{
   position:absolute;
   top:50%;
   right:0;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:300px; /* font size */
   color:rgba(234,234,234,1); /* font-color */
   transform:translate(0,-50%);
@@ -2727,14 +2731,14 @@ body{
 }
 #service > .service_container > .s6 > .s6_details > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size of 6th box */
   font-weight:600;
   color:rgba(1,1,1,1); /* font-color */
 }
 #service > .service_container > .s6 > .s6_details > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size of 6th box */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -2775,7 +2779,7 @@ body{
 }
 #facts > .fact_container > .f1 > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* font size */
   font-weight:700;
   text-align:center;
@@ -2783,7 +2787,7 @@ body{
 }
 #facts > .fact_container > .f1 > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   text-align:center;
   color:rgba(235,235,235,1); /* font-color */
@@ -2802,7 +2806,7 @@ body{
 }
 #facts > .fact_container > .f2 > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* font size */
   font-weight:700;
   text-align:center;
@@ -2810,7 +2814,7 @@ body{
 }
 #facts > .fact_container > .f2 > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   text-align:center;
   color:rgba(235,235,235,1); /* font-color */
@@ -2829,7 +2833,7 @@ body{
 }
 #facts > .fact_container > .f3 > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* font size */
   font-weight:700;
   text-align:center;
@@ -2837,7 +2841,7 @@ body{
 }
 #facts > .fact_container > .f3 > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   text-align:center;
   color:rgba(235,235,235,1); /* font-color */
@@ -2856,7 +2860,7 @@ body{
 }
 #facts > .fact_container > .f4 > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:36px; /* font size */
   font-weight:700;
   text-align:center;
@@ -2864,7 +2868,7 @@ body{
 }
 #facts > .fact_container > .f4 > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* font size */
   text-align:center;
   color:rgba(235,235,235,1); /* font-color */
@@ -2905,7 +2909,7 @@ body{
 }
 #blog > .blog_title > h1{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif; 
+  font-family:font-family: 'Lora', serif; 
   font-size:42px; /* Heading font size of Blog Title */
   font-weight:700;
 	letter-spacing:2px;
@@ -2915,7 +2919,7 @@ body{
 #blog > .blog_title > p{
   margin:0px 0px;
   width:32%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Para font size of Blog Title */
   line-height:28px;
   color:rgba(71,71,71,0.9); /* font-color */
@@ -2961,14 +2965,14 @@ body{
   display:block;
   padding:0px 18px;
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Sub-heading font-size - 1st blog */
   color:rgba(1,1,1,0.7); /* font-color */
 }
 #blog > .blog_container > .b1 > a > .b1_txt > h3{
   margin:0px 0px 12px 0px;
   padding:0px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font-size - 1st blog*/
 	font-weight:600;
   line-height:36px;
@@ -2977,7 +2981,7 @@ body{
 #blog > .blog_container > .b1 > a > .b1_txt > p{
   margin:0px;
   padding:0px 18px 18px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Paragraph font-size - 1st blog */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -3017,14 +3021,14 @@ body{
   display:block;
   padding:0px 18px;
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Sub-heading font-size - 2nd blog */
   color:rgba(1,1,1,0.7); /* font-color */
 }
 #blog > .blog_container > .b2 > a > .b2_txt > h3{
   margin:0px 0px 12px 0px;
   padding:0px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font-size - 2nd blog*/
 	font-weight:600;
   line-height:36px;
@@ -3033,7 +3037,7 @@ body{
 #blog > .blog_container > .b2 > a > .b2_txt > p{
   margin:0px;
   padding:0px 18px 18px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Paragraph font-size - 2nd blog */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -3073,14 +3077,14 @@ body{
   display:block;
   padding:0px 18px;
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Sub-heading font-size - 3rd blog */
   color:rgba(1,1,1,0.7); /* font-color */
 }
 #blog > .blog_container > .b3 > a > .b3_txt > h3{
   margin:0px 0px 12px 0px;
   padding:0px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font-size - 3rd blog*/
 	font-weight:600;
   line-height:36px;
@@ -3089,7 +3093,7 @@ body{
 #blog > .blog_container > .b3 > a > .b3_txt > p{
   margin:0px;
   padding:0px 18px 18px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Paragraph font-size - 3rd blog */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -3127,14 +3131,14 @@ body{
   display:block;
   padding:0px 18px;
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Sub-heading font-size - 4th blog */
   color:rgba(1,1,1,0.7); /* font-color */
 }
 #blog > .blog_container > .b4 > a > .b4_txt > h3{
   margin:0px 0px 12px 0px;
   padding:0px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font-size - 4th blog*/
 	font-weight:600;
   line-height:36px;
@@ -3143,7 +3147,7 @@ body{
 #blog > .blog_container > .b4 > a > .b4_txt > p{
   margin:0px;
   padding:0px 18px 18px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Paragraph font-size - 4th blog */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -3182,14 +3186,14 @@ body{
   display:block;
   padding:0px 18px;
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Sub-heading font-size - 5th blog */
   color:rgba(1,1,1,0.7); /* font-color */
 }
 #blog > .blog_container > .b5 > a > .b5_txt > h3{
   margin:0px 0px 12px 0px;
   padding:0px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font-size - 5th blog*/
 	font-weight:600;
   line-height:36px;
@@ -3198,7 +3202,7 @@ body{
 #blog > .blog_container > .b5 > a > .b5_txt > p{
   margin:0px;
   padding:0px 18px 18px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Paragraph font-size - 5th blog */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -3237,14 +3241,14 @@ body{
   display:block;
   padding:0px 18px;
   margin:0px 0px 18px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Sub-heading font-size - 6th blog */
   color:rgba(1,1,1,0.7); /* font-color */
 }
 #blog > .blog_container > .b6 > a > .b6_txt > h3{
   margin:0px 0px 12px 0px;
   padding:0px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font-size - 6th blog*/
 	font-weight:600;
   line-height:36px;
@@ -3253,7 +3257,7 @@ body{
 #blog > .blog_container > .b6 > a > .b6_txt > p{
   margin:0px;
   padding:0px 18px 18px 18px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:16px; /* Paragraph font-size - 6th blog */
   line-height:30px;
   color:rgba(21,21,21,1); /* font-color */
@@ -3404,7 +3408,7 @@ body{
 }
 #contact > .contact_title > h1{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:42px; /* Heading font size of Contact Title */
   font-weight:700;
 	letter-spacing:2px;
@@ -3414,7 +3418,7 @@ body{
 #contact > .contact_title > p{
   margin:0px 0px;
   width:60%;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:30px; /* Para font-size of Contact Title */
   line-height:46px;
   color:rgba(235,235,235,1); /* font-color */
@@ -3456,7 +3460,7 @@ body{
   width:calc(48% - 28px); /* Width of Input - NAME */
   padding:30px 12px;
   margin-bottom:36px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Font-size */
   color:rgba(154,154,154,1); /* Font-color */
   border:2px solid rgba(154,154,154,0.2);
@@ -3468,7 +3472,7 @@ body{
   padding:30px 12px;
   margin-left:4%;
   margin-bottom:36px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Font-size */
   color:rgba(154,154,154,1); /* Font-color */
   border:2px solid rgba(154,154,154,0.2);
@@ -3479,7 +3483,7 @@ body{
   height:280px;
   padding:18px 12px;
   margin-bottom:60px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Font-size */
   color:rgba(154,154,154,1); /* Font-color */
   border:2px solid rgba(154,154,154,0.2);
@@ -3489,7 +3493,7 @@ body{
   width:160px; /* Width of Submit Button */
   height:50px; /* Height of Submit Button */
   padding:16px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:14px; /* Font-size */
 	font-weight:500;
 	letter-spacing:2px;
@@ -3510,7 +3514,7 @@ body{
 }
 #contact > .contact_container > .form > .form_message > span.error{
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Form Error_Message font-size */
   color:rgba(235,235,235,1); /* Font-color */
   opacity:0;
@@ -3518,7 +3522,7 @@ body{
 #contact > .contact_container > .form > .form_message > span.success{
   position:absolute;
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* Form Success_Message font-size */
   color:rgba(235,235,235,1); /* font-color */
   transition:0.5s ease;
@@ -3543,7 +3547,7 @@ body{
 }
 #contact > .contact_container > .details > .details_wrap > h3{
   margin:0px 0px 24px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:24px; /* Heading font size */
   font-weight:500;
   line-height:36px;
@@ -3556,14 +3560,14 @@ body{
 }
 #contact > .contact_container > .details > .details_wrap > .address > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:20px; /* font size for Address Section */
   font-weight:600;
   color:rgba(255,255,255,1); /* font-color */
 }
 #contact > .contact_container > .details > .details_wrap > .address > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* font size for Address Section */
   color:rgba(154,154,154,1); /* font-color */
 }
@@ -3574,14 +3578,14 @@ body{
 }
 #contact > .contact_container > .details > .details_wrap > .phone > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:20px; /* font size for Phone Number Section */
   font-weight:600;
   color:rgba(255,255,255,1); /* font-color */
 }
 #contact > .contact_container > .details > .details_wrap > .phone > p{
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* font size for Phone Number Section */
   color:rgba(154,154,154,1); /* font-color */
 }
@@ -3591,7 +3595,7 @@ body{
 }
 #contact > .contact_container > .details > .details_wrap > .email > h3{
   margin:0px 0px 12px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:20px; /* font size for Email Section */
   font-weight:600;
   color:rgba(255,255,255,1); /* font-color */
@@ -3599,7 +3603,7 @@ body{
 #contact > .contact_container > .details > .details_wrap > .email > a{
   display:inline-block;
   margin:0px 0px;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:18px; /* font size for Email Section */
   color:rgba(154,154,154,1); /* font-color */
   text-decoration:none;
@@ -3644,7 +3648,7 @@ body{
 }
 #footer > .footer_container > .copyright > span{
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:font-family: 'Lora', serif;
   font-size:14px; /* Font size for copyright section */
   color:rgba(135,135,135,0.8); /* font-color */
 }
@@ -3737,7 +3741,7 @@ body{
 
 .proj-text {
     color: #4DA6C1;
-    font-family:"Montserrat",sans-serif;
+    font-family:font-family: 'Lora', serif;
     margin-bottom: -3px;
 }
 
@@ -3772,7 +3776,7 @@ body{
   #projs > .contact_me > a > span{
     display:block;
     padding:10px 0px;
-    font-family:"Montserrat",sans-serif;
+    font-family:font-family: 'Lora', serif;
     font-size:18px; /* Contact Me Button font size*/
       font-weight:500;
       letter-spacing:2px;
@@ -3844,4 +3848,12 @@ body{
   
 .experience-container {
     padding: 0px 10%;
+}
+
+.experience-container > p {
+  font-size: 18px;
+}
+
+ul {
+  font-family: 'Lora', serif;
 }
