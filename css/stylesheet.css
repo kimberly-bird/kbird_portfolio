@@ -3835,13 +3835,12 @@ body{
   }
 
   .jumbotron-header {
-    background-image: linear-gradient(60deg, rgb(77, 166, 193) 20%, #006E90 100%);
-    /* padding: 3%; */
+    background-image: linear-gradient(60deg, rgb(77, 166, 193) 20%, rgb(0, 98, 128) 100%);
     clip-path: polygon(
     0 0,
     100% 0,
     100% 100%,
-    0 calc(100% - 3vw)
+    0 calc(100% - 4vw)
   );
   }
 
