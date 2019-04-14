@@ -36,7 +36,7 @@
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:18px; 
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #portfolio > .portfolio_title > p{
   width:25%;
@@ -379,7 +379,7 @@ and (max-device-width : 667px) {
     }
     #hero > .intro_text > .more_about_me > a > span{
       font-size:18px; 
-      padding: px 0px 0px 0px;
+      padding: 12px 0px 0px 0px;
     }
 
     .about_me {
@@ -472,7 +472,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:18px; 
-  padding: px 0px 0px 0px;
+  padding: 12px 0px 0px 0px;
 }
 #portfolio > .portfolio_title > p{
   width:55%;
@@ -1103,7 +1103,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:16px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -1626,7 +1626,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:16px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -3024,7 +3024,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -4406,7 +4406,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -5835,7 +5835,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:16px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -7247,7 +7247,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:15px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -8662,7 +8662,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -10079,7 +10079,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -11496,7 +11496,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -12911,7 +12911,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:17px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -14323,7 +14323,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:15px 0px 0px 0px;
+  padding:12px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -15736,7 +15736,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:15px 0px 0px 0px;
+  padding:11px 0px 0px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -17146,7 +17146,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:14px 0px;
+  padding:10px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
@@ -18516,7 +18516,7 @@ and (max-device-width : 1024px)  {
 }
 #hero > .intro_text > .more_about_me > a > span{
   font-size:14px;
-  padding:15px 0px;
+  padding:12px 0px;
 }
 #hero > .hero_background_solid{
   width:100vw;
