@@ -3864,3 +3864,7 @@ ul {
 .nss-link:hover {
   color: rgb(1, 146, 190);
 }
+
+.bridge-accordion {
+  background-color: rgb(77, 166, 193);
+}
