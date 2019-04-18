@@ -407,6 +407,20 @@ body{
 	letter-spacing:2px;
 	text-transform:lowercase;
 }
+#contact > .portfolio_title{
+  width:90%;
+  margin:0px auto 66px auto;
+  overflow:hidden;
+}
+#contact > .portfolio_title > h1{
+  margin:0px 0px 12px 0px;
+  font-family:font-family: 'Lora', serif;
+  font-size:42px; /* Portfolio Title Heading Font size */
+  font-weight:700;
+  color:rgba(1,1,1,1); /* font-color */
+	letter-spacing:2px;
+	text-transform:lowercase;
+}
 #portfolio > .portfolio_title > p{
   width:65%;
   margin:0px 0px;
@@ -3845,6 +3859,15 @@ body{
   );
 }
 
+#contact {
+  background-color: white;
+  color:#006E90;
+}
+
+#contact > a > .fa-5x {
+  color:#006E90;
+}
+
 
 
 .project-bike-section {
@@ -3939,4 +3962,13 @@ ul {
   background-color: white;
   color: white !important;
   
+}
+
+.contact-icons {
+  color: #006E90;
+}
+
+.contact-icons:hover {
+  color: rgb(1, 146, 190);
+
 }
