@@ -389,7 +389,7 @@ body{
   position:relative; /* Don't change the position of this element */
   z-index:5; /* Don't change the z-indexing of this element */
   width:100%;
-  padding:132px 0px;
+  padding-top:50px;
   overflow:hidden;
   background:rgba(255,255,255,1);
 }
@@ -1971,7 +1971,7 @@ body{
   z-index:5; /* Don't change the z-indexing of this element */
   width:100%;
   overflow:hidden;
-  padding:132px 0px;
+  padding-top: 50px;
   background:rgba(255,255,255,1);
 }
 #education > .education_title{
@@ -3274,7 +3274,8 @@ body{
   z-index:5; /* Don't change z-indexing of this element */
   width:100%;
   overflow:hidden;
-  padding:90px 0px;
+  /* padding:90px 0px; */
+  padding: 50px 0px;
   background:rgba(242,242,242,1);
 }
 #client > .client_container{
@@ -3842,7 +3843,69 @@ body{
     100% 100%,
     0 calc(100% - 4vw)
   );
-  }
+}
+
+
+
+.project-bike-section {
+  background-color: #eca400;
+  color: white;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.project-bike-section > ul {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.project-grow-section {
+  background-color: #58D68D;
+  color: white;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.project-grow-section > ul {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.project-art-section {
+  background-color: #A1C6C1;
+  color: white;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.project-art-section > ul {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.project-break-section {
+  background-color: #C25B56;
+  color: white;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.project-break-section > ul {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.project-backpacker-section {
+  background-color: #9E3C85;
+  color: white;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.project-backpacker-section > ul {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 
   
 .experience-container {
@@ -3867,4 +3930,13 @@ ul {
 
 .bridge-accordion {
   background-color: rgb(77, 166, 193);
+}
+
+.project-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: white !important;
+  
 }
