@@ -3972,3 +3972,11 @@ ul {
   color: rgb(1, 146, 190);
 
 }
+
+.hero-contact-icons {
+    color: #4DA6C1;
+}
+
+.hero-contact-icons:hover {
+    color: #006E90;
+}
