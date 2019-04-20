@@ -1258,13 +1258,57 @@ ul {
 }
 
 .project-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  color: white !important;
-  
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: white !important;
+    width:160px;
+    height:50px;
+    border:2px solid white;
+    transition:0.3s ease;
+  }
+  .project-button > a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+  }
+  .project-button > a > span{
+    display:block;
+    padding:11px 0px;
+    font-size:18px; /* Contact Me Button font size*/
+    font-weight:500;
+    letter-spacing:2px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+  .project-button:hover{
+    background:transparent !important;
+  }
+  .project-button:hover > a > span{
+    color:rgba(255,255,255,1);
+  }
+
+  .project-bike-section >  div > a > span {
+      color: #eca400;
+  }
+ 
+  .project-grow-section >  div > a > span {
+      color: #58D68D;
+  }
+ 
+  .project-art-section >  div > a > span {
+      color: #A1C6C1;
+  }
+
+  .project-break-section >  div > a > span {
+      color: #C25B56;
+  }
+
+  .project-backpacker-section >  div > a > span {
+      color: #9E3C85;
+  }
 
 .contact-icons {
   color: #006E90;
