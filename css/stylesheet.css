@@ -1181,15 +1181,25 @@ body{
   margin-bottom: 0px;
 }
 
-.project-bike-section > ul {
+.project-bike-section > .core-functionality {
   margin-left: 15%;
-  margin-right: 15%;
+  font-size: 1.25rem;
+}
+
+.project-bike-section > ul {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .project-grow-section {
-  background-color: #58D68D;
-  color: white;
-  padding: 50px 0px;
-  margin-bottom: 0px;
+    background-color: #58D68D;
+    color: white;
+    padding: 50px 0px;
+    margin-bottom: 0px;
+}
+
+.project-grow-section > .core-functionality {
+  margin-left: 15%;
+  font-size: 1.25rem;
 }
 
 .project-grow-section > ul {
@@ -1198,11 +1208,16 @@ body{
 }
 
 .project-art-section {
-  background-color: #A1C6C1;
+  background-color: #233749;
   color: white;
   padding: 50px 0px;
   margin-bottom: 0px;
 }
+
+.project-art-section > .core-functionality {
+    margin-left: 15%;
+    font-size: 1.25rem;
+  }
 
 .project-art-section > ul {
   margin-left: 15%;
@@ -1216,6 +1231,11 @@ body{
   margin-bottom: 0px;
 }
 
+.project-break-section > .core-functionality {
+    margin-left: 15%;
+    font-size: 1.25rem;
+  }
+
 .project-break-section > ul {
   margin-left: 15%;
   margin-right: 15%;
@@ -1227,6 +1247,11 @@ body{
   padding: 50px 0px;
   margin-bottom: 0px;
 }
+
+.project-backpacker-section > .core-functionality {
+    margin-left: 15%;
+    font-size: 1.25rem;
+  }
 
 .project-backpacker-section > ul {
   margin-left: 15%;
@@ -1299,7 +1324,7 @@ ul {
   }
  
   .project-art-section >  div > a > span {
-      color: #A1C6C1;
+      color: #233749;
   }
 
   .project-break-section >  div > a > span {
@@ -1333,4 +1358,52 @@ ul {
 
 .project-paragraph {
     padding: 0px 10px;
+}
+
+
+#scroll-prompt {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  #scroll-prompt > i {
+    padding-bottom: 5px;
+  }
+
+.art-btn {
+    color: white;
+    background-color: #233749;
+    border-color: white;
+}
+
+.art-btn:hover {
+    background-color: black;
+    border-color: white;
+}
+
+.btn-projects {
+    color: white;
+}
+
+.vl {
+    border-left: 1px solid white;
+  }
+
+.btn-group {
+    padding-left: 37%;
+}
+
+.btn-projects:hover {
+    color: white;
+}
+
+.project-card {
+    max-width: 60%;
+    margin-left: 20%;
 }

@@ -48,17 +48,16 @@
                     <li><a href="#hero" class="active">Home</a></li>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#contact">Contact</a></li> -->
                 </ul>
             </div>
         </div>
     </div>
-    
+
     <!-- HEADER -->
-    
-    
+
+
     <!-- Mobile Menu -->
-    
+
     <div id="mobile_menu">
         <div class="head_wrap">
             <div class="mobile_header">
@@ -75,7 +74,6 @@
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#contact">Contact</a></li> -->
                 </ul>
             </div>
         </div>
@@ -118,14 +116,15 @@
                 <div class="row text-center hero-contact-icons">
                     <div class="col-sm-0 col-md-3 col-lg-3"></div>
                     <div class="col-sm-12 col-md-2 col-lg-2">
-                        <a href="https://github.com/kimberly-bird" target="_blank"><i class="fab fa-github fa-3x hero-contact-icons"></i></a>
+                        <a href="https://github.com/kimberly-bird" target="_blank"><i
+                                class="fab fa-github fa-3x hero-contact-icons"></i></a>
                     </div>
                     <div class="col-sm-12 col-md-2 col-lg-2">
                         <a href="https://www.linkedin.com/in/kimberly-j-bird/" target="_blank"><i
-                                    class="fab fa-linkedin fa-3x hero-contact-icons"></i></a>
+                                class="fab fa-linkedin fa-3x hero-contact-icons"></i></a>
                     </div>
                     <div class="col-sm-12 col-md-2 col-lg-2">
-                            <a href="mailto:kimberly.j.bird@gmail.com" target="_blank"><i
+                        <a href="mailto:kimberly.j.bird@gmail.com" target="_blank"><i
                                 class="fas fa-envelope fa-3x hero-contact-icons"></i></a>
                     </div>
                 </div>
@@ -136,6 +135,12 @@
     </div>
 
     <!-- HERO -->
+
+    <!-- SCROLL PROMPT -->
+    <div id="scroll-prompt">
+        <i class="fas fa-angle-double-down fa-3x"></i>
+    </div>
+    <!-- SCROLL PROMPT -->
 
 
     <!-- Portfolio -->
@@ -157,17 +162,58 @@
                     class="devicon-django-plain"></i></p>
             <h5 class="text-center project-summary" style="color: white;">An app to help my dad organize his hobby bike
                 business.</h5>
-            <p class="text-center">Core functionality:</p>
-            <ul>
-                <li>Inventory management: bikes and individual parts</li>
-                <li>To do list and labor: add and complete to dos on bikes in process, and record time spent to
-                    calculate total labor invested on each bike</li>
-                <li>Bike status: move bikes from in process <i class="fas fa-long-arrow-alt-right"></i> listed (shows
-                    total $ investment in bike; purchase price
-                    + parts added + labor) <i class="fas fa-long-arrow-alt-right"></i> to sold</li>
-                <li>Dashboard: easy access to overall data, such as total bikes sold, total labor, inventory overview
-                </li>
-            </ul>
+            <br>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#bike-collapse-1">Summary</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#bike-collapse-3">Technology</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#bike-collapse-2">Functionality</a></button>
+            </div>
+            <div class="collapse" id="bike-collapse-1">
+                <div class="card card-body project-card" style="color: black;">
+                    <p class="text-center project-paragraph">My dad has a hobby side business where he buys bikes from
+                        pawn shops and fixes them up and then resells them. I asked him how he managed this side
+                        business, and his response was "I start with some cash in an envelope at the beginning of the
+                        year, and I hope I end up with more cash than I started with at the end of the year". That's
+                        when I decided to build him this app to help him track his inventory, bike statuses, and sales.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse" id="bike-collapse-2">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Inventory management: bikes and individual parts</li>
+                        <li>To do list and labor: add and complete to dos on bikes in process, and record time spent to
+                            calculate total labor invested on each bike</li>
+                        <li>Bike status: move bikes from in process <i class="fas fa-long-arrow-alt-right"></i> listed
+                            (shows
+                            total $ investment in bike; purchase price
+                            + parts added + labor) <i class="fas fa-long-arrow-alt-right"></i> to sold</li>
+                        <li>Dashboard: easy access to overall data, such as total bikes sold, total labor, inventory
+                            overview
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse" id="bike-collapse-3">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Django web app using models for migrations, views for business logic, and templates for HTML
+                            rendering</li>
+                        <li>Learned how to use decorators to add @property decorator logic to models that are used
+                            throughout the app</li>
+                        <li>Discovered that I don't need to manually set a unique identifier for each image that is
+                            uploaded (like I needed to do for C#) - Django adds a unique string of characters in case an
+                            image is uploaded with a duplicate file name</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
             <!-- Github Button -->
             <div class="about_contact_me project-button">
                 <a href="https://github.com/kimberly-bird/bike_dash_app" target="_blank"><span><i
@@ -185,13 +231,51 @@
                     class="devicon-dot-net-plain-wordmark"></i></p>
             <h5 class="text-center project-summary" style="color: white;">An app to help keep plants alive by
                 tracking optimal watering and lighting settings.</h5>
-            <p class="text-center">Core functionality:</p>
-            <ul>
-                <li>Plant history: view history of plant's past watering and lighting</li>
-                <li>Update plant requirements: when user notices a plant isn't thriving, user can update plant water
-                    and/or lighting requirements</li>
-                <li>Plant watering schedule: view plants based on watering requirement to keep on schedule</li>
-            </ul>
+
+            <br>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#grow-collapse-1">Summary</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#grow-collapse-3">Technology</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#grow-collapse-2">Functionality</a></button>
+            </div>
+            <div class="collapse" id="grow-collapse-1">
+                <div class="card card-body project-card" style="color: black;">
+                    <p class="text-center project-paragraph">My husband got me a plant subscription where I got 6 new
+                        plants over a 6 month period. In an attempt to avoid killing the plants, I created this app to
+                        help track the health of my plants, and updating watering and/or lighting requirements to keep
+                        my plants alive.</p>
+                </div>
+            </div>
+            <div class="collapse" id="grow-collapse-2">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Plant history: view history of plant's past watering and lighting</li>
+                        <li>Update plant requirements: when user notices a plant isn't thriving, user can update plant
+                            water
+                            and/or lighting requirements</li>
+                        <li>Plant watering schedule: view plants based on watering requirement to keep on schedule</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse" id="grow-collapse-3">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Used ASP.NET MVC framework with Models for migrations, ViewModels to display data from
+                            multiple tables, controllers for business logic, and razor templates for HTML rendering</li>
+                        <li>SQLServer and Microsoft SQL Server Management Studio</li>
+                        <li>Virtual Machine to run Windows on my Mac</li>
+                        <li>Used Cloudinary for image upload for cloud storage</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
             <!-- Github Button -->
             <div class="about_contact_me project-button">
                 <a href="https://github.com/kimberly-bird/Grow" target="_blank"><span><i class="fab fa-github"></i>
@@ -206,11 +290,60 @@
             <h2 class="text-center">Art Archive</h2>
             <p class="text-center" style="font-size: 3rem;"><i class="devicon-react-original-wordmark"></i></p>
             <h5 class="text-center project-summary">An app for art collectors.</h5>
-            <p class="text-center project-paragraph">I collect artwork from both my great grandfather
-                and from my travels around the
-                world. <br>This app is to help users record their
-                artwork collection and relevant details about
-                each piece.</p>
+            <br>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#art-collapse-1">Summary</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#art-collapse-3">Technology</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#art-collapse-2">Functionality</a></button>
+            </div>
+            <div class="collapse" id="art-collapse-1">
+                <div class="card card-body project-card" style="color: black;">
+                    <p class="text-center project-paragraph">My great-grandfather was an artist and graphic designer in
+                        Chicago
+                        in the 50s and 60s. <br>I have several of his pieces, as well as art I've collected from my
+                        travels
+                        abroad. <br>This app is to help users remember the details about each special piece they own in
+                        their
+                        collection.</p>
+                </div>
+            </div>
+            <div class="collapse" id="art-collapse-2">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Add Artwork: using Cloudinary for image storage, users can upload a photo and enter details
+                            about
+                            each piece</li>
+                        <li>Edit Artwork: as more details about the piece become known, users can update accordingly
+                        </li>
+                        <li>View Gallery: using CSS hover, users can hover over each piece for quick info about the
+                            artwork</li>
+                        <li>View Filtered Gallery: users can view their artwork by artist, type of piece, and condition
+                        </li>
+                        <li>View Details: from the gallery, users can select a specific piece to see more details</li>
+                        <li>Delete Artwork</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse" id="art-collapse-3">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>React for frontend framework, json-server for persistent storage, and Materialize for
+                            styling</li>
+                        <li>Learned how to use state and props to pass data to different level components</li>
+                        <li>Used Cloudinary for image upload for cloud storage</li>
+                        <li><a href="https://art-archive.herokuapp.com/" target="_blank">Demo version of app</a>
+                            deployed to Heroku</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
             <!-- Github Button -->
             <div class="about_contact_me project-button">
                 <a href="https://github.com/kimberly-bird/art-archive" target="_blank"><span><i
@@ -226,18 +359,63 @@
             <h2 class="text-center">Take a Break</h2>
             <p class="text-center" style="font-size: 3rem;"><i class="devicon-csharp-plain"></i> <i
                     class="devicon-dot-net-plain-wordmark"></i></p>
-            <h5 class="text-center project-summary">An app to increase productivity through gamifying taking breaks throughout the day.
+            <h5 class="text-center project-summary">An app to increase productivity through gamifying taking breaks
+                throughout the day.
             </h5>
-            <p class="text-center">Core functionality:</p>
-            <ul>
-                <li>Goals: Set a daily "break point goal"</li>
-                <li>Record breaks: breaks are recorded by time and type of break (point value changes, based on if it's
-                    tech-free, walking around, etc.)</li>
-                <li>Productivity: at the end of the day, users can rate their overall productivity</li>
-                <li>Reflect: users can view their dashboard to see how breaks are impacting their productivity, and
-                    potentially change their break goal and/or how many breaks they take and/or the type of break
-                </li>
-            </ul>
+            <br>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#break-collapse-1">Summary</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#break-collapse-3">Technology</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#break-collapse-2">Functionality</a></button>
+            </div>
+            <div class="collapse" id="break-collapse-1">
+                <div class="card card-body project-card" style="color: black;">
+                    <p class="text-center project-paragraph">Like most people, I am trying to find the best balance to
+                        be productive without causing burnout. I read an interesting book that talked about the power of
+                        taking strategic breaks throughout the day to help with productivity. I decided to make an app
+                        to gamify taking breaks. Users will select their daily goal for breaks, and they'll enter their
+                        breaks throughout the day. Each break point value is calculated by the "type" of break (5 points
+                        for a break where you walk around and a 15 points for a tech-free break, for example). At the
+                        end of the day, users enter their productivity rating, and can view their dashboard to see how
+                        it compares to the points they earned through breaks.</p>
+                </div>
+            </div>
+            <div class="collapse" id="break-collapse-2">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Goals: Set a daily "break point goal"</li>
+                        <li>Record breaks: breaks are recorded by time and type of break (point value changes, based on
+                            if it's
+                            tech-free, walking around, etc.)</li>
+                        <li>Productivity: at the end of the day, users can rate their overall productivity</li>
+                        <li>Reflect: users can view their dashboard to see how breaks are impacting their productivity,
+                            and
+                            potentially change their break goal and/or how many breaks they take and/or the type of
+                            break
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse" id="break-collapse-3">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Used ASP.NET MVC framework with Models for migrations, ViewModels to display data from
+                            multiple tables, controllers for business logic, and razor templates for HTML rendering</li>
+                        <li>SQLServer and Microsoft SQL Server Management Studio</li>
+                        <li>Virtual Machine to run Windows on my Mac</li>
+                        <li>ChartsJS for rendering charts on dashboard</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+
             <!-- Github Button -->
             <div class="about_contact_me project-button">
                 <a href="https://github.com/kimberly-bird/TakeABreak" target="_blank"><span><i
@@ -253,10 +431,55 @@
             <h2 class="text-center">Backpacker Tracker</h2>
             <p class="text-center" style="font-size: 3rem;"><i class="devicon-angularjs-plain"></i></p>
             <h5 class="text-center project-summary">An app for world travelers.</h5>
-            <p class="text-center project-paragraph">My husband and I can never remember the
-                many places we've visited abroad, <br>so this app
-                helps track those details in a Google map and
-                timeline view.</p>
+            <br>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#backpacker-collapse-1">Summary</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#backpacker-collapse-3">Technology</a></button>
+                <div class="vl"></div>
+                <button type="button" class="btn btn-secondary"><a class="btn-projects" data-toggle="collapse"
+                        href="#backpacker-collapse-2">Functionality</a></button>
+            </div>
+            <div class="collapse" id="backpacker-collapse-1">
+                <div class="card card-body project-card" style="color: black;">
+                    <p class="text-center project-paragraph">My husband and I can never remember the
+                        many places we've visited abroad, <br>so this app
+                        helps track those details in a Google map and
+                        timeline view.</p>
+                </div>
+            </div>
+            <div class="collapse" id="backpacker-collapse-2">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>Add Trip: using Google Geocode to locate the specific location, users can enter trip
+                            location, details, and can upload an image (to Firebase) about their trip</li>
+                        <li>Rate Trip: rate each trip by a star rating</li>
+                        <li>Map View: using Google maps pins, users can see all of their recorded trips on a map</li>
+                        <li>Timeline View: this view helps users remember the order of their trips by date
+                        </li>
+                        <li>Trip Details: from the map or timeline, users can select a specific trip to see more details
+                        </li>
+                        <li>Delete Trip</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse" id="backpacker-collapse-3">
+                <div class="card card-body project-card" style="color: black;">
+                    <ul>
+                        <li>AngularJS for frontend framework, Firebase for persistent storage, and vanilla CSS for
+                            styling</li>
+                        <li>Used Google maps for both Geocoding and displaying trip data on map pins</li>
+                        <li><a href="https://backpacker-tracker.firebaseapp.com" target="_blank">Demo version of app</a>
+                            deployed to Firebase</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+
             <!-- Github Button -->
             <div class="about_contact_me project-button">
                 <a href="https://github.com/kimberly-bird/backpacker-tracker" target="_blank"><span><i
@@ -355,7 +578,8 @@
                     <div class="card-header bridge-accordion" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="false" aria-controls="collapseOne" style="color: white;">
+                                aria-expanded="false" aria-controls="collapseOne"
+                                style="color: white; font-size: 1.25rem;">
                                 <i class="fas fa-plus"></i> More about my role as a Junior Instructor
                             </button>
                         </h5>
@@ -441,7 +665,8 @@
                     <div class="card-header bridge-accordion" id="headingTwo">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo" style="color: white;">
+                                aria-expanded="false" aria-controls="collapseTwo"
+                                style="color: white; font-size: 1.25rem;">
                                 <i class="fas fa-plus"></i> See a few projects I worked on
                             </button>
                         </h5>
@@ -519,8 +744,10 @@
                 and
                 China (fall 2007).</p>
         </div>
+        <br>
+        <br>
+        <hr>
     </div>
-    <hr>
 
     <!-- TECH -->
 
@@ -596,8 +823,8 @@
                     </li>
                     <li><a href="https://www.linkedin.com/in/kimberly-j-bird/" target="_blank"><i
                                 class="fab fa-linkedin"></i></a></li>
-                    <li><a href="mailto:kimberly.j.bird@gmail.com" target="_blank"><i
-                                class="fas fa-envelope"></i></a></li>
+                    <li><a href="mailto:kimberly.j.bird@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
