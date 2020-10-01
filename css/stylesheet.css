@@ -1400,10 +1400,6 @@ ul {
     border-left: 1px solid white;
   }
 
-.btn-group {
-    padding-left: 37%;
-}
-
 .btn-projects:hover {
     color: white;
 }
