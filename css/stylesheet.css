@@ -1125,6 +1125,11 @@ body{
     height: auto;
 }
 
+.elixir-icon {
+    width: 5.5rem;
+    height: auto;
+}
+
 
 
 .card-custom {
