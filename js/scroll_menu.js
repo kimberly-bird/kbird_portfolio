@@ -11,6 +11,7 @@ $(document).ready(function(){
     
 	var window_scroll = $(window).scrollTop();
     var portfolio = $("#portfolio").offset().top - 80; 
+    var education = $("#education").offset().top - 80; 
     var about = $("#about").offset().top - 80; 
     var service = $("#service").offset().top - 80; 
     var blog = $("#blog").offset().top - 80; 
@@ -38,7 +39,11 @@ $(document).ready(function(){
 	if(window_scroll >= contact){
 	  $("#header > .wrapper > .menu > ul > li > a").filter(".active").removeClass("active");
 	  $("#header > .wrapper > .menu > ul > li:nth-child(6) > a").addClass("active");
-	}
+    }
+    if(window_scroll >= education){
+        $("#header > .wrapper > .menu > ul > li > a").filter(".active").removeClass("active");
+        $("#header > .wrapper > .menu > ul > li:nth-child(7) > a").addClass("active");
+      }
   });
 });
 
